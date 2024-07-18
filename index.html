@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="Eng">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Real Estate Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="logo.png" alt="Real Estate Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Accueil</a></li>
+                <li>
+                    <a href="#about">A Propos De Nous</a>
+                </li>
+                <li class="services">
+                    <a href="#services">Services ▼</a>
+                    <ul class="dropdown">
+                        <li><a href="#listing">Property Listing</a></li>
+                        <li><a href="#valuation">Property Valuation</a></li>
+                        <li><a href="#marketing">Marketing</a></li>
+                    </ul>
+                </li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Your main content here -->
+
+        <section id="hero">
+            <div class="hero-content">
+                <h1>Trouvez la maison de vos rêves</h1>
+                <p>Découvrez la propriété parfaite dans votre emplacement idéal</p>
+                <div class="search-bar">
+                    <input type="text" placeholder="Enter location, property type, or keywords">
+                    <button>Search</button>
+                </div>
+            </div>
+        </section>
+        <section id="featured-properties">
+            <h2>Propriétés en vedette</h2>
+            <div class="property-grid">
+                <!-- Repeat this div for each featured property -->
+                <div class="property-card">
+                    <img src="property1.jpg" alt="Property 1">
+                    <h3>Maison Meublee</h3>
+                    <p>4 Lits| 3 Douches| 2500 m2</p>
+                    <p class="price">500,000</p>
+                    <a href="#" class="btn">VOIR PLUS</a>
+                </div>
+                <!-- More property cards... -->
+            </div>
+        </section>
+        <section id="services">
+            <h2>Nos services</h2>
+            <div class="services-grid">
+                <a href="buy-home.html" class="service-item">
+                    <div class="service-image">
+                        <img src="buy-home.jpg" alt="Buy a Home">
+                    </div>
+                    <div class="service-content">
+                        <h3>Terrains En Vente</h3>
+                        <p>Cliquez sur l'image pour découvrir notre sélection exclusive de terrains. Trouvez le <b>Terrain</b> de vos rêves parmi nos opportunités soigneusement sélectionnées.
+
+                        </p>
+                    </div>
+                </a>
+                <a href="sell-home.html" class="service-item">
+                    <div class="service-image">
+                        <img src="sell-home.jpg" alt="Sell a Home">
+                    </div>
+                    <div class="service-content">
+                        <h3>Maisons en Vente</h3>
+                        <p>Cliquez sur l'image pour explorer notre collection exclusive de
+                            <b>maisons</b>. Découvrez la demeure parfaite parmi nos sélections raffinées. </p>
+                    </div>
+                </a>
+                <a href="rent-home.html" class="service-item">
+                    <div class="service-image">
+                        <img src="rent-home.jpg" alt="Rent a Home">
+                    </div>
+                    <div class="service-content">
+                        <h3>Travaux d'Amenagement & Outils</h3>
+                        <p>Cliquez sur l'image pour découvrir nos services de travaux d'aménagement et notre gamme d'outils de qualité. Transformez votre espace avec nos solutions sur mesure.</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+        </div>
+        <section id="about">
+            <h2>Pourquoi nous choisir</h2>
+            <div class="about-content">
+                <img src="team.jpg" alt="Our Team">
+                <div class="about-text">
+                    <p>Avec plus de 20 ans d'expérience sur le marché immobilier, notre équipe de professionnels se consacre à vous aider à trouver la propriété idéale ou à vendre votre maison au meilleur prix.</p>
+                    <ul>
+                        <li>Connaissance locale experte</li>
+                        <li>Service personnalisé</li>
+                        <li>Une expérience éprouvée</li>
+                        <li>Stratégies marketing innovantes</li>
+                    </ul>
+                    <a href="#" class="btn">En savoir plus sur Nous</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <h2>Ce que disent nos clients</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial">
+                    <p>"Service exceptionnel ! Ils nous ont trouvé la maison de nos rêves en un temps record."</p>
+                    <p class="client-name">-Mr:KONE & MR:Kouassi</p>
+                </div>
+                <!-- More testimonials... -->
+            </div>
+        </section>
+
+        <section id="cta">
+            <h2>Prêt à trouver la maison de tes rêves?</h2>
+            <p>Commençons dès aujourd'hui votre voyage vers la propriété parfaite !</p>
+            <a href="#" class="btn">Contactez-nous maintenant</a>
+        </section>
+
+    </main>
+
+    <footer id="contact">
+        <div class="footer-container">
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3972.4438881761585!2d-3.983655625016357!3d5.349018594629658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNcKwMjAnNTYuNSJOIDPCsDU4JzUxLjkiVw!5e0!3m2!1sen!2sin!4v1719565726579!5m2!1sen!2sin"
+                    style="width: 100%; height: 300px; border: 0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="contact-info">
+                <h2>Contactez-nous</h2>
+                <p>Email: Universgroupe2014@gmail.com</p>
+                <p>Téléphone:</p>
+                <ul>
+                    <li>+225 27 22 43 07 94</li>
+                    <li>+225 07 08 45 43 42</li>
+                    <li>+225 07 98 70 51 31</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p class="copyright">
+                &copy; 2024 <a href="#">codeavecsadee</a>. Tous droits réservés
+            </p>
+        </div>
+    </footer>

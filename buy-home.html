@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[Service Name] - Your Real Estate Company</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <!-- Include your navigation here -->
+        <header>
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="logo.png" alt="Real Estate Logo">
+                </div>
+                <ul class="nav-links">
+                    <li>
+                        <a href="#home">Accueil</a>
+                    </li>
+                    <li>
+                        <a href="#about">A propos de Nous</a>
+                    </li>
+                    <li class="services">
+                        <a href="#services">Services ▼</a>
+                        <ul class="dropdown">
+                            <li><a href="#listing">Property Listing</a></li>
+                            <li><a href="#valuation">Property Valuation</a></li>
+                            <li><a href="#marketing">Marketing</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+        </header>
+
+    </header>
+
+    <main>
+        <div class="container">
+            <div id="leftSpace" class="left-space"></div>
+            <div class="right-list">
+                <div class="list-item" onclick="showInLeftSpace(this)">
+                    <img src="terrain1.jpg" alt="Item 1">
+                    <span>Terrain de 1042 m2 à vendre dans la zone de Mpouto. Prix: 300 millions à débattre. Document: ACD.</span>
+                </div>
+                <div class="list-item" onclick="showInLeftSpace(this)">
+                    <img src="terrain2.jpg" alt="Item 2">
+                    <span>RIVIERA 3 HIBISCUS Un Immeuble jumelé inachevé R+4 en vente bâti sur une superficie de 800 m2 composé de : -16 appartements de 3 pièces avec les chambres autonomes -2 penthouse de 4 pièces avec les chambres autonomes. Document: CPF Prix de vente: 580 millions. NB: Marché direct.</span>
+                </div>
+                <div class="list-item" onclick="showInLeftSpace(this)">
+                    <img src="terrain3.jpg" alt="Item 3">
+                    <span>Terrain de 300 à 350 en vente avec un ACD en cour dossier bien avancé après djibi côté gauche juste après le ravin au prix de 8 millions de francs. Commission 10%.</span>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Add specific content for this service here -->
+
+        <h1>Achetes Ton Terrain chez GUI</h1>
+
+        <section class="property-listings">
+            <!-- Property Item 1 -->
+            <div class="property-item">
+                <div class="property-info">
+                    <h2>Terrain: ANGRE</h2>
+                    <p><strong>✅Prix:</strong>300 millions à débattre</p>
+                    <p><strong>✅Emplacement:</strong> zone de Mpouto</p>
+                    <p><strong>✅Superficie:</strong>1042 m2</p>
+                    <p><strong>✅ Document:</strong> ACD</p>
+
+                    <p>Terrain de 1042 m2 à vendre dans la zone de Mpouto. Prix: 300 millions à débattre. Document: ACD.</p>
+                    <button class="buy-btn">Acheter maintenant</button>
+
+                </div>
+                <div class="property-image">
+                    <img src="terrain1.jpg" alt="Luxurious Villa">
+                </div>
+            </div>
+
+            <!-- Property Item 2 -->
+            <div class="property-item">
+                <div class="property-info">
+                    <h2>RIVIERA 3 HIBISCUS </h2>
+                    <p><strong>✅Prix:</strong> 580 millions</p>
+                    <p><strong>✅Emplacement:</strong> zone de Mpouto</p>
+                    <p><strong>✅Superficie:</strong>800 m2 </p>
+                    <p><strong>✅ Document:</strong> CPF</p>
+                    <p>✅RIVIERA 3 HIBISCUS Un Immeuble jumelé inachevé R+4 en vente bâti sur une superficie de 800 m2 composé de : -16 appartements de 3 pièces avec les chambres autonomes -2 penthouse de 4 pièces avec les chambres autonomes. Document: CPF
+                        ✅ Prix de vente: 580 millions. NB: Marché direct.</p>
+                    <button class="buy-btn">Acheter maintenant</button>
+                </div>
+                <div class="property-image">
+                    <img src="terrain2.jpg" alt="Downtown Apartment">
+                </div>
+            </div>
+            <div class="property-item">
+                <div class="property-info">
+                    <h2>Djibi côté gauche juste après le ravin</h2>
+                    <p><strong>✅Prix:</strong>8 millions de francs</p>
+                    <p><strong>Emplacement:</strong> Djibi côté gauche juste après le ravin</p>
+                    <p><strong>✅Après djibi côté gauche juste après le ravin</strong> 4</p>
+                    <p><strong>✅Superficie:</strong> 300 à 350m</p>
+                    <p><strong>✅Commission 10%.</strong> </p>
+                    <p>Terrain de 300 à 350 en vente avec un ACD en cour dossier bien avancé après djibi côté gauche juste après le ravin au prix de 8 millions de francs. Commission 10%.</p>
+                    <button class="buy-btn">Acheter maintenant</button>
+                </div>
+                <div class="property-image">
+                    <img src="terrain3.jpg" alt="Downtown Apartment">
+                </div>
+            </div>
+
+            <!-- Add more property items as needed -->
+
+        </section>
+
+    </main>
+
+    <footer id="contact">
+        <div class="footer-container">
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3972.4438881761585!2d-3.983655625016357!3d5.349018594629658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNcKwMjAnNTYuNSJOIDPCsDU4JzUxLjkiVw!5e0!3m2!1sen!2sin!4v1719565726579!5m2!1sen!2sin"
+                    style="width: 100%; height: 300px; border: 0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="contact-info">
+                <h2>Contact Us</h2>
+                <p>Email: Universgroupe2014@gmail.com</p>
+                <p>Phone:</p>
+                <ul>
+                    <li>+225 27 22 43 07 94</li>
+                    <li>+225 07 08 45 43 42</li>
+                    <li>+225 07 98 70 51 31</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p class="copyright">
+                &copy; 2024 <a href="#">codeavecsadee</a>. Tous droits réservés
+            </p>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
